@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+/*services start*/
+.services {
+  padding: 80px 0;
+}
+
+.common_title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #1e1e1e;
+  margin-bottom: 50px;
+}
+
+.common_title h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: -15px;
+  color: ;
+}
+
+.common_title h1 span{
+  color: #fe320a;
+}
+
+.service_content {
+
+}
+
+.service_content i {
+  font-size: 48px;
+  color: #ff0000;
+}
+
+.service_content h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #151515;
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+.service_content p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #252525;
+}
+/*services end*/
+
+/*client start*/
+.client {
+  padding: 80px 0;
+  background-image: url(../images/client_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; 
+}
+
+.single_client i {
+    font-size: 35px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 16px 14px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.single_client i:hover {
+  border: 2px solid #ff0000;
+}
+
+.single_client h3 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.single_client h2 {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 600;
+}
+/*client end*/
+
+
+.incremental-counter .num {
+  background: #f8f8f8 none repeat scroll 0 0;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  color: #00aae6;
+  display: inline-block;
+  height: 64px;
+  line-height: 62px;
+  margin: 0 4.5px;
+  position: relative;
+  text-align: center;
+  top: -1px;
+  font-size: 45px;
+  font-size: 3.72625em;
+  font-weight: 700;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.45);
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.incremental-counter .num::before {
+  background: #00aae6;
+  content: "";
+  display: block;
+  height: 1px;
+  left: -1px;
+  margin: -0.5px 0 0;
+  position: absolute;
+  right: -1px;
+  top: 50%;
+  width: auto;
+}
+
+/*curve text*/
+.curve_text {
+  background: #ddd;
+  padding: 100px 0;
+}
+
+.curve h2 {
+  color: red;
+}
+/*curve text*/
+
+.animsition {
+  background-color: #ddd;
+}
+
+.animsition a {
+  font-size: 40px;
+  color: #fff;
+}
